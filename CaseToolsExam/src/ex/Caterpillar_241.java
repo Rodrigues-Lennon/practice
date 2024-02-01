@@ -14,4 +14,10 @@ public class Caterpillar_241 {
 		return moves;
 	}
 
+	int move() {
+		return ++moves;
+	}
+	int eat() {
+		return cabbages++;
+	}
 }
